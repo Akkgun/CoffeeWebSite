@@ -8,27 +8,30 @@
     border:0;
     text-decoration:none;
     text-transform:capitalize;
-    background-color: rgb(255, 255, 255);
+    
    
 }
 body{
-    background-color: white;
+    background-color: black;
    z-index: 10000;
 }
 
 
 .header{
-    background-color: white;
-
+    background-color: black;
+    color: rgba(40, 12, 2, 0.857);
     padding-top: 10vh;
     display: block;
     position: relative;
     z-index: 1;
+
 }
+
 .navbar{
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     display:inline-flex;
     width: 100%;
+    border-bottom: 5px solid rgb(34, 34, 34);
 }
 .header .navbar a{
     color:gray;
@@ -39,7 +42,6 @@ body{
     font-size:1rem;
     border-bottom:0.1rem solid transparent;
     bottom: 50px;
-    background-color: white;
     margin-left: 150px;
     left:45vh;
 }
@@ -47,6 +49,9 @@ body{
 .header .navbar a:hover{
     color:gold;
     transition: 0.4s ease;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid gold;
+
 }
 .order{
     width: 160px; 
@@ -60,25 +65,26 @@ body{
     bottom: 30px;
     padding-top: 20px;
     left: 160vh;
+    transition: all 1s;
     
 }
 .order:hover{
     color:gold;
-    background-color:black;
+    background-color:rgb(255, 255, 255);
     transition: 1s ease;
 }
 
 .logo{
     height: 50px;
-    color:black;
+    color:rgb(255, 255, 255);
     font-size: large;
     position: absolute;
     width:10px;
-    bottom: 22px;
-    left:32vh;
+    bottom: 30px;
+    left:25vh;
 }
 .logo:hover{
-    color:brown;
+    color:gold;
     transition: 0.3s ease-in-out;
 }
 .gallery{
@@ -87,23 +93,37 @@ body{
 }
 .home{
     scroll-behavior: smooth;
-    background:url(/videos&photos/brooke-lark-HlNcigvUi4Q-unsplash.jpg) no-repeat;
+    background:url(/videos&photos/close-up-view-dark-fresh-roasted-coffee-beans-coffee-beans-background.jpg) no-repeat;
     width: 100%;
     min-height: 92vh;
     margin-top:-7.6rem;
     transition: 0.8s ease-in-out;
     display:flex;
+    border-bottom: 5px solid rgb(34, 34, 34);
     align-items: center;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
-
+.h2{
+    background-color: transparent;
+    color:rgb(255, 217, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    font-size: 80px;
+    margin-left: 350px;
+    font-weight: 1000;
+    transition: 0.5s ease-in;
+    display: inline-block;
+    text-transform: uppercase;
+    
+}
 .gallery{
-    color:black;
-    text-decoration: underline;
-    font-family:"Poppins",sans-serif;
+    color:#ffffff;
+    background-color: black;
+    font-family:monospace;
     margin-top: 10vh;
     margin-left: 95vh;
     position: relative;
@@ -111,47 +131,5 @@ body{
     display:grid;
     object-fit: cover;
     
-}
-
-.box-container img{
-    float:left;
-    width: 32vh;
-    position:relative;
-    margin-top: 7vh;
-    padding: 15px;
-    height: 30vh;
-    left: 35vh;
-    border:50px;
-    border-radius: 50px;
-    
-}
-.box-container2 img{
-    float:left;
-    width: 32vh;
-    margin-top: -31.5vh;
-    padding: 15px;
-    height: 30vh;
-    position: relative;
-    left: 35vh;
-    border-radius: 50px;
-}
-.src{
-    margin-top:49vh;
-    float:left;
-    width: 32vh;
-    border-radius: 50px;
-    height: 30vh;  
-    padding-left:25px;
-    left: -7px;
-    position: relative;
-}
-img:hover{
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -ms-filter: blur(3px);
-    -o-filter: blur(5px);
-    filter: blur(3px);
-   
-  
 }
 
