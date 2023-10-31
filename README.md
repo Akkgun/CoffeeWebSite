@@ -1,4 +1,4 @@
-# Coffee
+# CoffeeWebSite
 
 A project I did to try myself, it's not finished yet. Hope to see much bigger projects :)
 
