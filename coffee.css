@@ -88,15 +88,12 @@ body{
     color:gold;
     transition: 0.3s ease-in-out;
 }
-.gallery{
-    position:absolute;
-    background-color: white;
-}
 .home{
     scroll-behavior: smooth;
-    background-color: black;
+    background: url(/videos&photos/99.jpg);
+    background-color:silver;
     width: 100%;
-    min-height: 95vh;
+    height:95vh;
     margin-top:-7.6rem;
     transition: 0.8s ease-in-out;
     display:flex;
@@ -109,28 +106,13 @@ body{
 
    
 }
-.coffee{
-    margin-left: 80vh;
-    margin-top: 30vh;
-    width: 50vh;
-    height: 50vh;
-    position: relative;
-}
-.smoke{
-    width: 70vh;
-    height: 70vh;
-    margin-left: -59vh;
-    margin-bottom: 50vh;
-    position: relative;
-}
 .h2{
     color: rgb(75, 36, 3);
     font-family: 'Coffee', sans-serif;
     width: 250px;
     font-size: 250px;
     margin-left: 30vh;
-    display: flex;
-    margin-bottom: 45vh;
+    margin-bottom: 30vh;
     transition: 0.5s ease-in;
     text-transform:uppercase;
     
@@ -140,10 +122,9 @@ body{
     font-family: 'Coffee', sans-serif;
     width: 250px;
     font-size: 80px;
-    margin-left: 66vh;
-    display: flex;
-    position: absolute;
-    margin-bottom: 35vh;
+    margin-left: 16vh;
+    position: relative;
+    margin-bottom: 15vh;
     transition: 0.5s ease-in;
     text-transform:uppercase;
 }
@@ -156,15 +137,31 @@ body{
     background-color: rgb(75, 36, 3);
     color:white;
     border-radius: 50px;
-    margin-top: 30vh;
-    margin-left: -165vh;
+    margin-top:40vh;
+    margin-left: 33vh;
     transition:all 1s;
+    position: absolute;
 }
 .buy:hover{
     background-color: gold;
     transition: 0.5s ease-in-out;
 }
-
+.p{
+    width: 200px;
+    font-weight: 1000;
+    color:black;
+    margin-left: -60vh;
+    margin-top: 50px;
+    text-transform: capitalize;
+    
+}
+p:first-letter {
+	font-size:3.2em;
+	float: left;
+	line-height: 0.4em;
+    color:rgb(75, 36, 3);
+	margin: 0.03em 0.05em 0.05em 0;
+}
 .gallery{
     color:#ffffff;
     background-color: black;
@@ -176,49 +173,4 @@ body{
     width: 30%;
     flex-direction:row;
     display: grid;
-}
-.box-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.box-container img{
-    float:left;
-    height: 30vh;
-    position: relative;
-    padding: 45px;
-    width: 35vh;
-   right: 55vh;
-   margin-top: 120px;
-
-}
-.box-container2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-.box-container2 img{
-    float:left;
-    height: 30vh;
-    position: relative;
-    padding: 55px;
-    width: 35vh;
-   right: 55vh;
-   margin-top: 10px;
-
-
-}
-.box-container3 img{
-    float:left;
-    height: 25vh;
-    position: relative;
-    padding: 55px;
-    width: 35vh;
-   left: -11vh;
-   margin-top: -50px;
-
-
 }
