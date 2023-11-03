@@ -4,7 +4,7 @@
 *{
     margin:0;
     padding: 0;
-    box-sizing:none;
+    box-sizing:border-box;
     outline: none;
     border:0;
     text-decoration:none;
@@ -64,7 +64,6 @@ body{
     border-radius: 70px;
     text-align: center;
     bottom: 35px;
-    padding-top: 20px;
     left: 160vh;
     transition: all 1s;
     
@@ -133,14 +132,13 @@ body{
     height: 50px;
     text-align: center;
     font-size: 27px;
-    padding-top: 18px;
     background-color: rgb(75, 36, 3);
     color:white;
     border-radius: 50px;
     margin-top:40vh;
     margin-left: 33vh;
     transition:all 1s;
-    position: absolute;
+    position: absolute
 }
 .buy:hover{
     background-color: gold;
@@ -162,15 +160,25 @@ p:first-letter {
     color:rgb(75, 36, 3);
 	margin: 0.03em 0.05em 0.05em 0;
 }
-.gallery{
-    color:#ffffff;
-    background-color: black;
+.baslik{
+   font-size: 10vh;
+    color:white;
     font-family: 'Coffee', sans-serif;
+    text-align: center;
+    justify-content: space-between;
     margin-top: 10vh;
-    margin-left: 92vh;
-    position: absolute;
-    font-size: 55px;
-    width: 30%;
-    flex-direction:row;
-    display: grid;
+    padding-bottom: 80px;
+}
+.box img{
+    width: 55vh;
+    height: 75vh;
+    float:left;
+    padding:30px;
+    margin-left: 10vh;
+    border-radius: 200px;
+    border: 5px solid gray;
+}
+.box img:hover{
+    border-color: gold;
+    transition: 0.5s ease;
 }
