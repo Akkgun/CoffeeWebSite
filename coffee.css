@@ -52,7 +52,6 @@ body{
     transition: 0.4s ease;
     padding-bottom: 0.4rem;
     border-bottom: 1px solid gold;
-
 }
 .order{
     width: 160px; 
@@ -153,7 +152,7 @@ body{
     text-transform: capitalize;
     
 }
-p:first-letter {
+.p:first-letter {
 	font-size:3.2em;
 	float: left;
 	line-height: 0.4em;
@@ -176,9 +175,97 @@ p:first-letter {
     padding:30px;
     margin-left: 10vh;
     border-radius: 200px;
-    border: 5px solid gray;
+    border: 5px solid rgb(255, 255, 255);
+    transition: all 0.8s;
 }
 .box img:hover{
     border-color: gold;
     transition: 0.5s ease;
 }
+.about{
+    text-align: center;
+    display: inline-block;
+    background-size: left;
+    margin-top: 50vh;
+    margin-left: 100vh;
+    height: 70vh;
+    width: 104.8vh;
+    background-image: linear-gradient(104deg,rgb(156, 137, 27), rgb(225, 152, 25)0%,rgb(87, 77, 52));
+}
+
+.baslik2{
+    color:white;
+    display: inline-block;
+    margin-top: -25vh;
+    margin-left: -60vh;
+    position: absolute;
+    display: inline-block;
+    font-size: 10vh;
+    font-family: 'Coffee', sans-serif;
+    
+}
+/*
+.altbaslik{
+    display: inline-block;
+    font-size: 40px;
+    width: 400px;
+    margin-top: 80px;
+    font-family: 'monospace', sans-serif;
+    margin-left: 130vh;
+}
+.altp{
+    display: inline-block;
+    font-size: 30px;
+    width: 500px;
+    margin-top: 100px;
+    font-family: 'monospace', sans-serif;
+    margin-left: 127vh;
+}
+*/
+.contact {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  margin-top: 12vh;
+  margin-left:70vh;
+}
+
+.contact:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.contact:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.contact:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
